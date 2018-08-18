@@ -6,7 +6,7 @@ node {
     }
     stage ('Maven Package'){
         
-            'package'
+            'maven packages'
              echo 'Testing the maven package block'
     }
     stage ('Email Notification')
