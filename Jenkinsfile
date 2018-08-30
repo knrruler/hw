@@ -8,6 +8,8 @@ node {
         
             bat 'mvn package'
              echo 'Testing the maven package block'
+        
+        
     }
     stage ('Email Notification')
     
